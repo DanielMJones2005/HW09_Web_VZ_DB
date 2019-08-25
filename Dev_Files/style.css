@@ -3,44 +3,56 @@
   color: #fff;
 }
 
+.body_c {
+  background: #f2f2f2;
+}
+
 .teal {
- 
   background: rgb(34, 173, 166);
-}
-
-.navbar-brand {
-   color: #fff !important;
-   padding-left: 20px;
-   padding-right: 20px;
-}
-
-.top_row{
-  background: #f2f2f2;
-  height: 50px;
-}
-
-.backcolor {
-  background: #f2f2f2;
 }
 
 .red {
   background: #db0808;
+
 }
 
 .blue {
   background: #1d0892;
 }
 
+.navbar-brand {
+   color: #fff !important;
+   padding-left: 20px;
+   padding-right: 20px;    
+
+}
+
+
+.row_spacer{
+  background: #f2f2f2;
+  height: 50px;
+}
+
+.last_row{
+  background: #f2f2f2;
+  height: 30px;
+}
+
+.backcolor {
+  background: #f2f2f2;
+}
+
+
 .pad_outborder_margin_l {
-  padding-left: 75px;
+  padding-left: 90px;
 }
 
 .pad_outborder_margin_r {
-  padding-right: 75px;
+  padding-right: 90px;
 }
 
 .pad_sum_margin_r {
-  padding-right: 25px;
+  padding-right: 30px;
 }
 
 .white {
@@ -62,6 +74,19 @@ h2 {
 
 }
 
+.insert_pad_vz {
+  padding-left: 100px;
+  padding-right: 25px;
+
+}
+
+.compare_pad {
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+
+
 .head_space1 {
   height: 50px;
 
@@ -72,8 +97,23 @@ h2 {
 
 }
 
+.head_space2_vz {
+  height: 8px;
+
+}
+
 .head_space3 {
   height: 30px;
+
+}
+
+.head_space_page {
+  height: 10px;
+
+}
+
+.head_space3_vz {
+  height: 20px;
 
 }
 
@@ -88,14 +128,77 @@ h2 {
 }
 
 
+#page-image {
+  width: 100%;
+  
+}
+
+
 /* Selecting elements by ID */
-#main-bio,
 #sum-image {
   float: left;
+
+}
+
+.img_border {
+  border-color: rgb(34, 173, 166);
+  border-style: solid;
 }
 
 .f {
-  font-size: 18px;
+  font-size: 17.5px;
   line-height: 2;
   color: rgb(89, 89, 89);
+}
+
+#vz_images {
+  width: 175px;
+  height: 175px;
+}
+
+#comp_images {
+  width: 90%
+}
+
+.comp_center {
+  text-align: center;
+}
+
+.comp_bottom {
+  height: 50px;
+  background: #f2f2f2;
+
+}
+
+.comp_spacer {
+  height: 75px;
+
+}
+
+.comp_text_pad {
+  padding-left: 30px;
+  padding-right: 25px;
+
+}
+
+.footer {
+  font-size: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color:rgb(77, 77, 77);
+}
+
+.foot_c1 {
+  background-color:rgb(34, 173, 166);
+  color: white;
+  height: 5px;
+}
+
+.foot_c2 {
+  padding-top: 10px;
+  background-color:rgb(77, 77, 77);
+  color: white;
+  padding-bottom: 1px;
 }
