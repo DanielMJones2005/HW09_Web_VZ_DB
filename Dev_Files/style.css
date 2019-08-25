@@ -1,0 +1,101 @@
+.box {
+  text-align: center;
+  color: #fff;
+}
+
+.teal {
+ 
+  background: rgb(34, 173, 166);
+}
+
+.navbar-brand {
+   color: #fff !important;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.top_row{
+  background: #f2f2f2;
+  height: 50px;
+}
+
+.backcolor {
+  background: #f2f2f2;
+}
+
+.red {
+  background: #db0808;
+}
+
+.blue {
+  background: #1d0892;
+}
+
+.pad_outborder_margin_l {
+  padding-left: 75px;
+}
+
+.pad_outborder_margin_r {
+  padding-right: 75px;
+}
+
+.pad_sum_margin_r {
+  padding-right: 25px;
+}
+
+.white {
+  background: #FFFFFF;
+}
+
+h1 {
+  color: rgb(34, 173, 166)
+}
+
+h2 {
+  color: rgb(34, 173, 166)
+}
+
+
+.insert_pad {
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+.head_space1 {
+  height: 50px;
+
+}
+
+.head_space2 {
+  height: 10px;
+
+}
+
+.head_space3 {
+  height: 30px;
+
+}
+
+#figure {
+  position: relative;
+}
+
+#sum-image {
+  width: 225px;
+  height: 225px;
+  margin-right: 20px;
+}
+
+
+/* Selecting elements by ID */
+#main-bio,
+#sum-image {
+  float: left;
+}
+
+.f {
+  font-size: 18px;
+  line-height: 2;
+  color: rgb(89, 89, 89);
+}
