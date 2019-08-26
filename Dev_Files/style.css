@@ -170,9 +170,21 @@ h2 {
 
 }
 
-.comp_spacer {
-  height: 75px;
+.data_spacer {
+  height: 50px;
+  background: #f2f2f2;
 
+}
+
+.data_bottom {
+  height: 50px;
+  background: #f2f2f2;
+  padding-right: 50px;
+
+}
+
+.comp_spacer {
+  height: 75px; 
 }
 
 .comp_text_pad {
@@ -180,6 +192,13 @@ h2 {
   padding-right: 25px;
 
 }
+
+.data_pad {
+  padding-left: 30px;
+  padding-right: 250px;
+
+}
+
 
 .footer {
   font-size: 15px;
