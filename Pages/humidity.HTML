@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>HW09 Web Viz</title>
+</head>
+
+
+<body>
+
+
+<!-- Navigation-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light white">  
+<div class="container-fluid">  
+    
+    
+            <div class= "col-md-5">
+                <div class="navbar-nav">
+                    
+                    <div class="col-md-1">
+                    </div>    
+                    
+                    <div>
+                        
+                        <strong>                
+                        <a class="navbar-brand mx-auto teal" href="../index.HTML">Latitude</a>
+                        </strong>                        
+                   
+                    </div>
+                 
+                </div> 
+            </div>
+
+
+            
+            <div class="col-md-7">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ml-auto">                          
+                                <li class="nav-item dropdown active">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Plots
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="max_temp.HTML">Max Temperature</a>
+                                        <a class="dropdown-item" href="humidity.HTML">Humidty</a>
+                                        <a class="dropdown-item" href="cloudiness.HTML">Cloudiness</a>
+                                    <a class="dropdown-item" href="wind_speed.HTML">Wind Speed</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="comparison.HTML">Comparison</a>
+                                </li>
+
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="data.HTML">Data</a>
+                                </li>
+                            </ul>
+                          </div>
+            </div>    
+</div>         
+</nav>
+  
+<!-- row1 -->
+<div class="row">
+
+  
+<!-- Content -->
+<!-- row2-->
+<div class="row row_spacer">
+</div>
+
+  
+
+<!-- Humidity -->
+<div class="container3-fluid">
+    <div class="row">
+        <div class="col-md-7 backcolor">
+            
+             
+                <div class="row pad_outborder_margin_l pad_sum_margin_r"> 
+                <div class="col white">
+                        <div class="row row_spacer"></div>
+
+                        <div class="row head_space1"></div>
+
+                        <div class="row insert_pad"> 
+                        <strong>
+                        <h1>Humidity</h1>
+                        </strong>
+                        </div>
+
+                        <div class="row head_space2"></div>
+
+                        <hr>
+
+                        <div class="row head_space_page"></div>
+
+                        <div class="row insert_pad">
+                        <main class="container4"> 
+                        <section>
+                                <section id="figure">
+                
+                                <a target="_blank" href="../Img/lat_vs_hum.png">
+                                <img id="page-image" src="../Img/lat_vs_hum.png" alt="lat_vs_hum">
+                                </a>
+
+                                </section>
+
+                                <br>
+                              
+                                <p class="f">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Commodi sequi ex quam quia iste, nemo molestias dolor, qui dolorem 
+                                    voluptatibus ipsa maxime voluptas et deserunt porro repellendus 
+                                    veritatis nesciunt quisquam.
+                                </p>
+
+                                <br>
+
+                        </section>   
+                        </main>     
+                        </div>
+
+                        <div class="row row_spacer"></div>
+
+                </div>
+                </div>
+
+        </div>
+
+
+<!--Visualizations-->    
+        <div class="col-md-5 backcolor">
+            <div class="row pad_outborder_margin_r">
+            <div class="col white">
+                        <div class="row row_spacer"></div>
+                        <div class="row head_space1"></div>
+
+                        <div class="row insert_pad"> 
+                        <strong>
+                                <h2>Visualizations</h2>
+                        </strong>
+                        </div>
+
+                        <div class="row head_space2_vz"></div>
+
+                        <hr>
+
+                        <div class="row head_space3_vz"></div>
+
+                        <div class="row">  
+                        <main class="container5"> 
+                        <section class="insert_pad_vz"> 
+
+                            
+                            <a target="_blank" href="max_temp.HTML">
+                            <img id="vz_images" src="../Img/lat_vs_maxtemp.png" alt="lat_vs_maxtemp">
+                            </a>
+                          
+                            
+                            <a target="_blank" href="humidity.HTML">
+                            <img id="vz_images"  class="img_border" src="../Img/lat_vs_hum.png" alt="lat_vs_hum">
+                            </a>
+                            
+                            <a target="_blank" href="cloudiness.HTML">
+                            <img id="vz_images" src="../Img/lat_vs_cloud.png" alt="lat_vs_cloud">
+                            </a>
+                          
+                            <a target="_blank" href="wind_speed.HTML">
+                            <img id="vz_images" src="../Img/lat_vs_ws.png" alt="lat_vs_ws">
+                            </a>
+                        </section>  
+                        </main>
+
+                        <div class="row head_space3_vz"></div>
+
+                        </div>
+                     
+
+            </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- row2 -->
+</div>
+
+<!-- row1 -->
+</div>
+
+<!-- Footer -->
+
+<div class="footer">
+
+    <div class="Row foot_c1">
+
+    </div>
+
+    <div class="Row foot_c2">
+      
+
+        <p> &copy; Copyright Coding Bootcamp 2019</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</html>
